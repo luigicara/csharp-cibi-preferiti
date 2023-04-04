@@ -3,7 +3,7 @@
 //array contente cibi preferiti
 string[] cibiPreferiti = { "Spaghetti alle vongole", "Linguine alla bolognese", "Patatine Fritte", "Nigiri di Salmone", "Udon alle verdure", "Orata al forno" };
 
-Console.WriteLine($"Ci sono {cibiPreferiti.Length} cibi nella classifica\n");
+Console.WriteLine($"Ci sono {cibiPreferiti.Length} cibi nella classifica\r\n");
 
 for ( int i = 0; i < cibiPreferiti.Length; i++ )
 {
@@ -15,7 +15,7 @@ Console.WriteLine();
 
 Console.WriteLine($"Il mio cibo preferito è \"{cibiPreferiti[0]}\"");
 
-Console.WriteLine($"Il mio cibo \"meno\" preferito è \"{cibiPreferiti[cibiPreferiti.Length - 1]}\"\n");
+Console.WriteLine($"Il mio cibo \"meno\" preferito è \"{cibiPreferiti[cibiPreferiti.Length - 1]}\"\r\n");
 
 //bonus
 var index = cibiPreferiti.Length / 2;
